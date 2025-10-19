@@ -1,0 +1,27 @@
+{
+    "name": "Dastresi",
+    "short_name": "Dstr",
+    "description": "سایت فروشگاهی دسترسی",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2196f3",
+    "orientation": "portrait",
+    "id":"/",
+    "icons": [
+        {
+            "src": "/src/assests/images/shop-svgrepo-com.png",
+            "sizes": "800x800"
+        }
+    ],
+     "screenshots": [
+    {
+      "src": "/src/assests/images/logo (2).png",
+      "sizes": "845x360",
+      "type": "image/png",
+      "label": "صفحه اصلی برنامه",
+      "form_factor":"wide"
+    }
+  ]
+    
+}
