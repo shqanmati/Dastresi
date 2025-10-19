@@ -1,0 +1,124 @@
+nav{
+  position: fixed;
+  top: 0;
+  z-index: 9999 !important;
+}
+.Slider-container .swiper {
+  width: 100%;
+  height: 100%;
+  z-index: 0 !important;
+}
+.Slider2-container .swiper {
+  width: 90%;
+  height: 90%;
+  z-index: 0 !important;
+}
+.Slider3-container .swiper {
+  width: 90%;
+  height: 90%;
+}
+.Slider4-container .swiper {
+  width: 90%;
+  height: 90%;
+}
+.Slider5-container .swiper {
+  width: 93%;
+  height: 100%;
+}
+.Slider6-container .swiper {
+  width: 90%;
+  height: 90%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0 !important;
+}
+
+.Slider-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Slider2-container .swiper-slide img {
+  display: block;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+.Slider3-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Slider4-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Slider5-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Slider6-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Slider3-container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.Slider4-container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.Slider3-prev,
+.Slider3-next{
+    position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+.Slider4-prev,
+.Slider4-next{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+.Slider5-prev,
+.Slider5-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+.Slider6-container .swiper-pagination-bullet{
+  display: none;
+  transition: all 0.3 ease;
+}
+.Slider6-container .swiper-pagination-bullet:nth-child(-n+2){
+  display: inline-block;
+}
+.Slider6-container .swiper-pagination-bullet-active{
+  background-color: rgb(54, 54, 235);
+  opacity: 1;
+  transform: scale(1.2);
+}
+
